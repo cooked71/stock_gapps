@@ -11,7 +11,7 @@ license {
 // Google Services Framework
 android_app_import {
     name: "GoogleServicesFramework",
-    apk: "vendor/stock_gapps/prebuilts/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+    apk: "prebuilts/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
     presigned: true,
     privileged: true,
     product_specific: true,
@@ -21,7 +21,7 @@ android_app_import {
 // Google Play Services
 android_app_import {
     name: "GmsCore",
-    apk: "vendor/stock_gapps/prebuilts/product/priv-app/GmsCore/GmsCore.apk",
+    apk: "prebuilts/product/priv-app/GmsCore/GmsCore.apk",
     presigned: true,
     privileged: true,
     product_specific: true,
@@ -35,7 +35,7 @@ android_app_import {
 // Play Store
 android_app_import {
     name: "Phonesky",
-    apk: "vendor/stock_gapps/prebuilts/product/priv-app/Phonesky/Phonesky.apk",
+    apk: "prebuilts/product/priv-app/Phonesky/Phonesky.apk",
     presigned: true,
     privileged: true,
     product_specific: true,
@@ -45,7 +45,7 @@ android_app_import {
 // Google Calendar
 android_app_import {
     name: "CalendarGoogle",
-    apk: "vendor/stock_gapps/prebuilts/product/app/CalendarGoogle/CalendarGoogle.apk",
+    apk: "prebuilts/product/app/CalendarGoogle/CalendarGoogle.apk",
     presigned: true,
     product_specific: true,
     uses_libs: [
@@ -58,7 +58,7 @@ android_app_import {
 // Google Contacts
 android_app_import {
     name: "GoogleContacts",
-    apk: "vendor/stock_gapps/prebuilts/product/app/GoogleContacts/GoogleContacts.apk",
+    apk: "prebuilts/product/app/GoogleContacts/GoogleContacts.apk",
     presigned: true,
     product_specific: true,
     uses_libs: [

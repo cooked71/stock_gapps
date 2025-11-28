@@ -15,7 +15,7 @@ android_app_import {
     presigned: true,
     privileged: true,
     product_specific: true,
-    uses_libs: ["org.apache.http.legacy"],
+    optional_uses_libs: ["org.apache.http.legacy"],
 }
 
 // Google Play Services
@@ -25,7 +25,7 @@ android_app_import {
     presigned: true,
     privileged: true,
     product_specific: true,
-    uses_libs: [
+    optional_uses_libs: [
         "org.apache.http.legacy",
         "androidx.window.extensions", 
         "androidx.window.sidecar"
@@ -39,7 +39,7 @@ android_app_import {
     presigned: true,
     privileged: true,
     product_specific: true,
-    uses_libs: ["org.apache.http.legacy"],
+    optional_uses_libs: ["org.apache.http.legacy"],
 }
 
 // Google Calendar
@@ -48,7 +48,7 @@ android_app_import {
     apk: "prebuilts/product/app/CalendarGoogle/CalendarGoogle.apk",
     presigned: true,
     product_specific: true,
-    uses_libs: [
+    optional_uses_libs: [
         "org.apache.http.legacy",
         "androidx.window.extensions",
         "androidx.window.sidecar"
@@ -61,7 +61,7 @@ android_app_import {
     apk: "prebuilts/product/app/GoogleContacts/GoogleContacts.apk",
     presigned: true,
     product_specific: true,
-    uses_libs: [
+    optional_uses_libs: [
         "org.apache.http.legacy",
         "androidx.window.extensions",
         "androidx.window.sidecar"

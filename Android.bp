@@ -1,0 +1,52 @@
+// Stock GApps from device dump
+package {
+    default_applicable_licenses: ["vendor_stock_gapps_license"],
+}
+
+license {
+    name: "vendor_stock_gapps_license",
+    visibility: [":__subpackages__"],
+}
+
+// Google Services Framework
+android_app_import {
+    name: "GoogleServicesFramework",
+    apk: "vendor/stock_gapps/prebuilts/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+    presigned: true,
+    privileged: true,
+    product_specific: true,
+}
+
+// Google Play Services
+android_app_import {
+    name: "GmsCore",
+    apk: "vendor/stock_gapps/prebuilts/product/priv-app/GmsCore/GmsCore.apk",
+    presigned: true,
+    privileged: true,
+    product_specific: true,
+}
+
+// Play Store
+android_app_import {
+    name: "Phonesky",
+    apk: "vendor/stock_gapps/prebuilts/product/priv-app/Phonesky/Phonesky.apk",
+    presigned: true,
+    privileged: true,
+    product_specific: true,
+}
+
+// Google Calendar
+android_app_import {
+    name: "CalendarGoogle",
+    apk: "vendor/stock_gapps/prebuilts/product/app/CalendarGoogle/CalendarGoogle.apk",
+    presigned: true,
+    product_specific: true,
+}
+
+// Google Contacts
+android_app_import {
+    name: "GoogleContacts",
+    apk: "vendor/stock_gapps/prebuilts/product/app/GoogleContacts/GoogleContacts.apk",
+    presigned: true,
+    product_specific: true,
+}
